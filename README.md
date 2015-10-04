@@ -63,6 +63,7 @@ We will post instructions for this on here shortly.
 Please send us two emails for your submission, both to stevec@deeson.co.uk.
 1. An email to us with a link to your code repository and hosted instance, with any notes you may wish to include to us
 regarding your submission.
+
 2. An email to "the client", outlining the features they requested and what they need to do to review them.
 
 ## Extras
