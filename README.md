@@ -13,7 +13,10 @@ with Drupal's drush tools included.
 
 Once you have a hosting environment set up, check out our code and visit the site in your browser.
 You should be greeted by Drupal's install script. Follow this and once you're finished you should
-see a basic Drupal instance.
+see a basic Drupal instance in the browser and the set up process would have created you a settings.php
+file. You'll need to add the following to your settings.php:
+
+`require_once 'sites/all/conf/master.settings.inc';`
 
 Try and run `drush @local status`. You may need to review the aliases file at
 sites/all/drush/sites.aliases.drushrc.php to make this work.
@@ -24,6 +27,9 @@ Once you have drush working, run the following commands:
 
 `drush @local master-ensure-modules`
 (Choose the local scope)
+
+Finally, go to /admin/appearance and select the Deeson Dev Challenge Sub-theme to be enabled and your default theme.
+You can disable Bartik too while you're there.
 
 You should now have our base install configured! To check, and to give you some test content to
 work with, go to admin/config/development/generate/content and generate 50 articles.
