@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the ddc_common feature.
+ */
+
+include_once 'ddc_common.features.inc';

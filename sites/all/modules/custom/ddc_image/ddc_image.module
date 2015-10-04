@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the ddc_image feature.
+ */
+
+include_once 'ddc_image.features.inc';

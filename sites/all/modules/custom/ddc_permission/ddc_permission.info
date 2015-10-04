@@ -1,0 +1,6 @@
+name = ddc_permission
+core = 7.x
+package = Features
+dependencies[] = features
+features[features_api][] = api:2
+features[user_role][] = administrator

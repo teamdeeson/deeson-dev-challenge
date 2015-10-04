@@ -1,0 +1,49 @@
+<?php
+/**
+ * @file
+ * Code for the ddc_homepage feature.
+ */
+
+include_once 'ddc_homepage.features.inc';
+
+/**
+ * Implements hook_menu().
+ */
+function ddc_homepage_menu() {
+  $items['homepage'] = array(
+    'page callback' => 'ddc_homepage_page',
+    'access callback' => TRUE,
+  );
+  return $items;
+}
+
+/**
+ * Page callback for DDC homepage.
+ */
+function ddc_homepage_page() {
+  $article_listing = NULL;
+  $homepage_listing_view = views_get_view('homepage_listing');
+  if ( is_object($homepage_listing_view) ) {
+    $homepage_listing_view->set_display('master');
+    $homepage_listing_view->pre_execute();
+    $article_listing = $homepage_listing_view->render('master');
+  }
+  return theme('ddc_homepage', array('article_listing' => $article_listing));
+}
+
+function ddc_homepage_theme() {
+  return array(
+    'ddc_homepage' => array(
+      'variables' => array('article_listing' => NULL),
+      'template' => 'templates/ddc-homepage'
+    ),
+  );
+}
+
+
+//function theme_ddc_homepage($variables) {
+//  $node = $variables['node'];
+//  $build = node_view($node);
+//  $output = drupal_render($build);
+//  return $output;
+//}

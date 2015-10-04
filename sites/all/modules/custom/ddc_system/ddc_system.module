@@ -1,0 +1,13 @@
+<?php
+/**
+ * @file
+ * Code for the ddc_system feature.
+ */
+
+include_once 'ddc_system.features.inc';
+/**
+ * Created by PhpStorm.
+ * User: stevecoppin
+ * Date: 04/10/15
+ * Time: 12:55
+ */ 
