@@ -6,12 +6,12 @@ We have put together a base build with a few key Drupal components and strategie
 to use. We would like you to download the build, make some changes and find a place to host the
 final result.
 
-**You'll need to start off by forking this repository to make your own.**
+**Please don't fork the repository. Best bet is to download the zip and push to your own.**
 
 ## Install
 Feel free to use your own web stack to develop on, but if you're new to Drupal it might be worth
 checking out Acquia Dev Desktop 2 (https://docs.acquia.com/dev-desktop2), which is a xAMP stack
-with Drupal's drush tools included.
+with Drupal's Drush tools included.
 
 Once you have a hosting environment set up, check out our code and visit the site in your browser.
 You should be greeted by Drupal's install script. Follow this and once you're finished you should
@@ -46,7 +46,7 @@ but they should also help you to understand the build and develop it further.
 
 1. What is master and what did it do when you ran master-ensure-modules?
 2. What are features and how did they help configure your local build?
-3. What is drush and how will it help you to develop your site?
+3. What is Drush and how will it help you to develop your site?
 4. In the ddc_theme module, what is the `ddc_theme_preprocess_node` function doing?
 5. What is the purpose of the Gruntfile.js file in the ddc_theme and how do you use it?
 
