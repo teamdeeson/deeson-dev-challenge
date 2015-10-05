@@ -6,6 +6,8 @@ We have put together a base build with a few key Drupal components and strategie
 to use. We would like you to download the build, make some changes and find a place to host the
 final result.
 
+**You'll need to start off by forking this repository to make your own.**
+
 ## Install
 Feel free to use your own web stack to develop on, but if you're new to Drupal it might be worth
 checking out Acquia Dev Desktop 2 (https://docs.acquia.com/dev-desktop2), which is a xAMP stack
