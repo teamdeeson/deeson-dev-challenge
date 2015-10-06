@@ -1,5 +1,10 @@
 <?php
 /**
+ * @file
+ * Node template functions.
+ */
+
+/**
  * Implements hook_preprocess_node().
  */
 function ddc_theme_preprocess_node(&$variables) {

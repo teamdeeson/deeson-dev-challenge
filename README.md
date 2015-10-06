@@ -49,6 +49,7 @@ but they should also help you to understand the build and develop it further.
 3. What is Drush and how will it help you to develop your site?
 4. In the ddc_theme module, what is the `ddc_theme_preprocess_node` function doing?
 5. What is the purpose of the Gruntfile.js file in the ddc_theme and how do you use it?
+6. What is the coder module and why is what it's doing important?
 
 ## Challenge
 Your client has asked you to make some improvements to the site. Here are their requests:
@@ -78,6 +79,6 @@ regarding your submission.
 If you're up for some extra challenges, why not try the following:
 
 - Add more style to our design! It needs it.
-- Add a load more button (rather than paging) to the listings
-- Add a site search mechanism (perhaps using solr)
-- Add another content type to the site
+- Add a load more button (rather than paging) to the listings.
+- Add a site search mechanism (perhaps using solr).
+- Add another content type to the site.

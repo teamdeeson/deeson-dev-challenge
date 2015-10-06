@@ -1,9 +1,7 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: stevecoppin
- * Date: 04/10/15
- * Time: 13:06
+ * @file
+ * Template file for article teasers.
  */
 ?>
 <div class="contextual-links-region">

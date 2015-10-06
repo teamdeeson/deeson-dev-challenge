@@ -1,9 +1,7 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: stevecoppin
- * Date: 04/10/15
- * Time: 13:06
+ * @file
+ * Template file for article full view.
  */
 ?>
 <div id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>

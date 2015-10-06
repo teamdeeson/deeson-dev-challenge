@@ -1,9 +1,6 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: stevecoppin
- * Date: 04/10/15
- * Time: 12:59
+/* @file
+ * Install file for ddc_system.
  */
 
 /**
