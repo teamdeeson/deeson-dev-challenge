@@ -47,7 +47,7 @@ but they should also help you to understand the build and develop it further.
 1. What is master and what did it do when you ran master-ensure-modules?
 2. What are features and how did they help configure your local build?
 3. What is Drush and how will it help you to develop your site?
-4. In the ddc_theme module, what is the `ddc_theme_preprocess_node` function doing?
+4. In the ddc_theme theme, what is the `ddc_theme_preprocess_node` function doing?
 5. What is the purpose of the Gruntfile.js file in the ddc_theme and how do you use it?
 6. What is the coder module and why is what it's doing important?
 
