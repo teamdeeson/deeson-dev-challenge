@@ -36,7 +36,7 @@ You can disable Bartik too while you're there.
 You should now have our base install configured! To check, and to give you some test content to
 work with, go to admin/config/development/generate/content and generate 50 articles.
 
-**If you have any issues getting set up, email stevec@deeson.co.uk with a link to your repository
+**If you have any issues getting set up, email johne@deeson.co.uk with a link to your repository
 details of how far you were able to get. There is every chance there is a problem with our build
 or instructions, so don't hesitate**
 
@@ -69,7 +69,7 @@ We would like you to host a version of your site for us to review please. You ma
 We will post instructions for this on here shortly.
 
 ## Delivery
-Please send us two emails for your submission, both to stevec@deeson.co.uk.
+Please send us two emails for your submission, both to johne@deeson.co.uk.
 
 1. An email to us with a link to your code repository and hosted instance, with any notes you may wish to include to us
 regarding your submission.
