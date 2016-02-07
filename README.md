@@ -77,8 +77,7 @@ Acquia offer the ability to create a free Drupal 7 hosting instance.
 6. Choose the European Union as the cloud instance location
 7. Tick the box and click add, provisioning takes a few minutes
 8. Click through the Drupal installation process, choosing the minimal profile
-9. Once the provisioning process has finished you will need to integrated your local code with the new codebase which got created on Acquia.
-10. Go back to https://insight.acquia.com, click on ‘Sites’ in the nav and click the Cloud button next to the site you just created.
+9. Once the provisioning process has finished, go back to https://insight.acquia.com, click on ‘Sites’ in the nav and click the Cloud button next to the site you just created.
 
 This is a raw Drupal site with its own codebase inside its own git repository. We leave it as an exercise
 for you to now integrate your work on your local computer with the remote repository.
@@ -97,6 +96,7 @@ If you're up for some extra challenges, why not try the following:
 - Add a load more button (rather than paging) to the listings.
 - Add a site search mechanism (perhaps using solr).
 - Add another content type to the site.
+- Setup the git repository for the [GitFlow style](https://www.deeson.co.uk/labs/using-git-flow-drupal-project) and have the Acquia dev environment track the develop branch.
 - Read this following blog post about extending EntityMetadataWrapper with the xautoload module.
   Add your own classes to a custom module and make use of them in some way - https://www.deeson.co.uk/labs/extending-entitydrupalwrapper
   (Hint: The article describes how to wrapper the User Entity but its probably more appropriate to wrapper the Node Entity on this site).
