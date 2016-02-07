@@ -38,7 +38,7 @@ work with, go to admin/config/development/generate/content and generate 50 artic
 
 **If you have any issues getting set up, email johne@deeson.co.uk with a link to your repository
 details of how far you were able to get. There is every chance there is a problem with our build
-or instructions, so don't hesitate**
+or instructions, so don't hesitate to get in touch**
 
 ## Questions
 Before getting started, consider the following questions. They are likely to come up in interview,
@@ -65,8 +65,23 @@ then become available to everyone.
 tags.
 
 ## Hosting
-We would like you to host a version of your site for us to review please. You may want to use the free Acquia Dev Cloud.
-We will post instructions for this on here shortly.
+We would like you to host a version of your site for us to review please.
+
+Acquia offer the ability to create a free Drupal 7 hosting instance.
+
+1. If you have not got an Acquia account then sign up for one at https://insight.acquia.com
+2. Login and click ‘Add site’
+3. Select a new free site
+4. Give it a name ending in deeson, e.g. fredbloggsdeeson
+5. Set the distribution to Drupal 7
+6. Choose the European Union as the cloud instance location
+7. Tick the box and click add, provisioning takes a few minutes
+8. Click through the Drupal installation process, choosing the minimal profile
+9. Once the provisioning process has finished you will need to integrated your local code with the new codebase which got created on Acquia.
+10. Go back to https://insight.acquia.com, click on ‘Sites’ in the nav and click the Cloud button next to the site you just created.
+
+This is a raw Drupal site with its own codebase inside its own git repository. We leave it as an exercise
+for you to now integrate your work on your local computer with the remote repository.
 
 ## Delivery
 Please send us two emails for your submission, both to johne@deeson.co.uk.
@@ -78,7 +93,10 @@ regarding your submission.
 ## Extras
 If you're up for some extra challenges, why not try the following:
 
-- Add more style to our design! It needs it.
+- Add more style to our design! It needs it. If you have indicated that design is your thing then this is your chance to shine.
 - Add a load more button (rather than paging) to the listings.
 - Add a site search mechanism (perhaps using solr).
 - Add another content type to the site.
+- Read this following blog post about extending EntityMetadataWrapper with the xautoload module.
+  Add your own classes to a custom module and make use of them in some way - https://www.deeson.co.uk/labs/extending-entitydrupalwrapper
+  (Hint: The article describes how to wrapper the User Entity but its probably more appropriate to wrapper the Node Entity on this site).
