@@ -2,6 +2,7 @@
 
 ## Intro
 This developer challenge will introduce you to Drupal and us to your coding approach and style.
+
 We have put together a base build with a few key Drupal components and strategies that we like
 to use. We would like you to download the build, make some changes and find a place to host the
 final result.
@@ -36,7 +37,7 @@ You can disable Bartik too while you're there.
 You should now have our base install configured! To check, and to give you some test content to
 work with, go to admin/config/development/generate/content and generate 50 articles.
 
-**If you have any issues getting set up, email johne@deeson.co.uk with a link to your repository
+**If you have any issues getting set up, email ronalda@deeson.co.uk with a link to your repository
 details of how far you were able to get. There is every chance there is a problem with our build
 or instructions, so don't hesitate to get in touch**
 
@@ -83,7 +84,7 @@ This is a raw Drupal site with its own codebase inside its own git repository. W
 for you to now integrate your work on your local computer with the remote repository.
 
 ## Delivery
-Please send us two emails for your submission, both to johne@deeson.co.uk.
+Please send us two emails for your submission, both to ronalda@deeson.co.uk.
 
 1. An email to us with a link to your code repository and hosted instance, with any notes you may wish to include to us
 regarding your submission.
