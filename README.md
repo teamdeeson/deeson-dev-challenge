@@ -56,15 +56,20 @@ but they should also help you to understand the build and develop it further.
 Your client has asked you to make some improvements to the site. Here are their requests:
 
 1. Can you please add a subtitle, author (with image and description), and publication date to the
-article content type and display.
-2. We have some special articles and we want to be able to highlight this on the site so they stand
-out to our users.
-3. We want to make it so that these articles are available to registered users only until a certain date, when they
-then become available to everyone.
-4. We'd like only articles that are promoted to the front page to show there.
-5. We would like a new article listing on a separate page, showing all articles, which can be filtered by article
+article content type and display. Keep in mind that authors will be associated with multiple articles and may or may not be Drupal users. 
+
+2. We'd like only articles that are promoted to the front page to show there.
+
+3. We would like a new article listing on a separate page, showing all articles, which can be filtered by article
 tags.
 
+4. We have some special articles and we want to be able to highlight this on the site so they stand
+out to our users. Please consider how to make it easy for content editors to select and deselect special articles and see all articles maeked as special in a single place. In terms of theming simply make sure that a special article stands out to anonymous users (a tag or color associated with the article). 
+
+5. We want to make it so that some articles can be selected to be made available only to registered users until a certain date and time, when they then become available to everyone. These articles should be completely invisible to anonymous users (i.e. no teasers in views and a 403 if someone attempts to visit the node page).
+
+6. Read this blog post - https://www.deeson.co.uk/labs/extending-entitydrupalwrapper -  about extending EntityMetadataWrapper with the xautoload module. Determine how to use this techinque to improve the implementation of requirement 5 above.
+  
 ## Hosting
 We would like you to host a version of your site for us to review please.
 
@@ -98,6 +103,4 @@ If you're up for some extra challenges, why not try the following:
 - Add a site search mechanism (perhaps using solr).
 - Add another content type to the site.
 - Setup the git repository for the [GitFlow style](https://www.deeson.co.uk/labs/using-git-flow-drupal-project) and have the Acquia dev environment track the develop branch.
-- Read this following blog post about extending EntityMetadataWrapper with the xautoload module.
-  Add your own classes to a custom module and make use of them in some way - https://www.deeson.co.uk/labs/extending-entitydrupalwrapper
-  (Hint: The article describes how to wrapper the User Entity but its probably more appropriate to wrapper the Node Entity on this site).
+
