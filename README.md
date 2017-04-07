@@ -89,7 +89,7 @@ This is a raw Drupal site with its own codebase inside its own git repository. W
 for you to now integrate your work on your local computer with the remote repository.
 
 ## Delivery
-Please send us two emails for your submission, both to ronalda@deeson.co.uk.
+Please send us two emails for your submission, both to johne@deeson.co.uk.
 
 1. An email to us with a link to your code repository and hosted instance, with any notes you may wish to include to us
 regarding your submission.
