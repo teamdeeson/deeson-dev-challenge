@@ -37,9 +37,9 @@ You can disable Bartik too while you're there.
 You should now have our base install configured! To check, and to give you some test content to
 work with, go to admin/config/development/generate/content and generate 50 articles.
 
-**If you have any issues getting set up, email ronalda@deeson.co.uk with a link to your repository
-details of how far you were able to get. There is every chance there is a problem with our build
-or instructions, so don't hesitate to get in touch**
+**If you have any issues getting set up, email johne@deeson.co.uk with a link to your repository
+details of how far you were able to get. Don't hesitate to get in touch if you have any questions
+or would like any clarifications.**
 
 ## Questions
 Before getting started, consider the following questions. They are likely to come up in interview,
