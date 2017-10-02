@@ -53,6 +53,9 @@ but they should also help you to understand the build and develop it further.
 6. What is the coder module and why is what it's doing important?
 
 ## Challenge
+
+Please commplete all 6 steps in the Challenge.
+
 Your client has asked you to make some improvements to the site. Here are their requests:
 
 1. Can you please add a subtitle, author (with image and description), and publication date to the
@@ -68,7 +71,7 @@ out to our users. Please consider how to make it easy for content editors to sel
 
 5. We want to make it so that some articles can be selected to be made available only to registered users until a certain date and time, when they then become available to everyone. These articles should be completely invisible to anonymous users (i.e. no teasers in views and a 403 if someone attempts to visit the node page).
 
-6. Read this blog post - https://www.deeson.co.uk/labs/extending-entitydrupalwrapper -  about extending EntityMetadataWrapper with the xautoload module. Determine how to use this techinque to improve the implementation of requirement 5 above.
+6. Read this blog post - https://www.deeson.co.uk/labs/extending-entitydrupalwrapper -  about extending EntityMetadataWrapper with the xautoload module. Use this technique to improve the implementation of requirement 5 above.
   
 ## Hosting
 We would like you to host a version of your site for us to review please.
