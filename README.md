@@ -54,7 +54,7 @@ but they should also help you to understand the build and develop it further.
 
 ## Challenge
 
-Please commplete all 6 steps in the Challenge.
+Please complete all 6 steps in the Challenge.
 
 Your client has asked you to make some improvements to the site. Here are their requests:
 
